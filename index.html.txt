@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Contraseñas Seguras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generador de Contraseñas Seguras</h1>
+        <p>Una herramienta sencilla y segura para generar contraseñas robustas. ¡Protege tus cuentas ahora!</p>
+        <button id="buyButton">Comprar Ahora por $100</button>
+    </div>
+
+    <script>
+        document.getElementById('buyButton').addEventListener('click', function () {
+            window.location.href = 'TU_ENLACE_DE_PAGO_DE_STRIPE';
+        });
+    </script>
+</body>
+</html>
